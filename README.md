@@ -1,6 +1,5 @@
 # 🏦 ATM Banking System (C++)
 
----
 ![ATM](https://img.shields.io/badge/Project-ATM%20Simulator-yellow)
 ![C++](https://img.shields.io/badge/Language-C++17-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-informational)
@@ -14,7 +13,7 @@ A **console-based ATM / Banking System** built in **C++** that demonstrates real
 
 ### 👤 User Features
 
-* Secure login using **4-digit masked PIN (****)**
+* Secure login using **4-digit masked PIN (`****`)**
 * Create a new bank account
 * Deposit & withdraw money
 * View transaction history with timestamps
@@ -33,6 +32,71 @@ A **console-based ATM / Banking System** built in **C++** that demonstrates real
 * Clean, aligned console UI
 * Error sounds for invalid actions
 * Confirmation prompts before destructive operations
+
+---
+
+## 🖥️ Console UI Screenshots
+
+### Main Menu
+
+```text
+=========================================
+         WELCOME TO UG BANK ATM
+=========================================
+1. Login
+2. Create Account
+3. Exit
+-----------------------------------------
+Select:
+```
+
+### Create Account Screen
+
+```text
+====================================
+         CREATE NEW ACCOUNT
+====================================
+Enter Name      : John Doe
+Set 4-digit PIN : ****
+Confirm PIN     : ****
+Initial Deposit : $5000
+------------------------------------
+Account ID      : 1001
+------------------------------------
+Account created successfully!
+```
+
+### User Dashboard
+
+```text
+===============================================
+            WELCOME John Doe
+===============================================
+Account ID: 1001
+-----------------------------------------------
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Transaction History
+5. Logout
+6. Close Account
+-----------------------------------------------
+Select:
+```
+
+### Admin Dashboard
+
+```text
+===========ADMIN DASHBOARD===========
+-------------------------------------
+| Acc ID |     NAME     |  BALANCE  |
+-------------------------------------
+| 1001   | John Doe     | $5000.00  |
+-------------------------------------
+Total Accounts: 1
+Total Balance : $5000.00
+-------------------------------------
+```
 
 ---
 
@@ -115,7 +179,7 @@ class Account {
 * Deposit & withdrawal logic
 * Binary file serialization (`saveToFile`, `readFromFile`)
 
-> 💡 Entire object is written to disk using `reinterpret_cast`, simulating **low-level database storage**.
+> 💡 Entire object is written to disk using `reinterpret_cast`, simulating **low-level binary persistence**.
 
 ---
 
@@ -253,18 +317,17 @@ Adds **realistic ATM feedback**.
 ## 🚀 How to Run
 
 ```bash
-g++ atm.cpp -o atm
-./atm
+g++ atm.cpp -o atm.exe
+atm
 ```
 
-> Run on **Windows only**
+> Tested using **MinGW on Windows**
 
 ---
 
 ## 📌 Tech Stack 🛠️
 
 **Language:** C++
-
 **Libraries:** STL, Windows API, Conio
 
 ---
