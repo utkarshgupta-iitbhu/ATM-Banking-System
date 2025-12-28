@@ -1,8 +1,12 @@
-# 🏦 UG Bank ATM System (C++)
+# 🏦 ATM Banking System (C++)
+
+---
+![ATM](https://img.shields.io/badge/Project-ATM%20Simulator-yellow)
+![C++](https://img.shields.io/badge/Language-C++17-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-informational)
+![File Handling](https://img.shields.io/badge/Storage-Binary%20Files-orange)
 
 A **console-based ATM / Banking System** built in **C++** that demonstrates real-world concepts like **binary file handling**, **object serialization**, **secure PIN input**, **admin & user roles**, and **transaction logging** — all wrapped in a clean, interactive UI with sound feedback.
-
-This project is designed as a **portfolio-ready system** and is suitable for **interview discussions**, especially around **file I/O, OOP, and system design**.
 
 ---
 
@@ -195,7 +199,6 @@ Same logic applies to deleting transactions from `transactions.dat`.
 
 ✔️ Safe
 ✔️ Reliable
-✔️ Interview-approved approach
 
 ---
 
@@ -247,18 +250,6 @@ Adds **realistic ATM feedback**.
 
 ---
 
-## 🧪 Interview Topics Covered
-
-✔ Binary file handling (`fstream`, `seekg`, `seekp`)
-✔ Object-oriented programming
-✔ Secure input handling
-✔ Data persistence
-✔ Memory-safe deletion
-✔ Role-based system design
-✔ Console UI engineering
-
----
-
 ## 🚀 How to Run
 
 ```bash
@@ -280,9 +271,10 @@ g++ atm.cpp -o atm
 
 ## 👤 Author
 
-**Utkarsh Gupta**
+**Utkarsh Gupta**  
 Aspiring Software Engineer | C++ Enthusiast
 
----
-
-⭐ If you like this project, consider starring the repo!
+![ATM](https://img.shields.io/badge/Project-ATM%20Simulator-yellow)
+![C++](https://img.shields.io/badge/Language-C++17-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-informational)
+![File Handling](https://img.shields.io/badge/Storage-Binary%20Files-orange)
